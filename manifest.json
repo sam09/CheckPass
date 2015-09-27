@@ -8,9 +8,10 @@
         "scripts": ["background.js"]
     },
     "browser_action": {
-        "default_title": "Test Extension",
-        "default_title": "Click here!"
+        "default_title": "Check Password",
+        "default_title": "Click here!",
+	"default_icon": "default_icon.png"
     },
 
-    "permissions": ["activeTab", "tabs", "https://*/*", "file:///*", "webNavigation"]
+    "permissions": ["activeTab", "tabs"]
 }
